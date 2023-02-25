@@ -1,13 +1,15 @@
 import './global.scss'
 import { CountryList } from 'features/country-list';
+import { Header } from 'features/header';
 function App() {
 
 
 
   return (
-    <h1 className="text-3xl font-bold underline">
+    <>
+      <Header />
       <CountryList />
-    </h1>
+    </>
   );
 }
 

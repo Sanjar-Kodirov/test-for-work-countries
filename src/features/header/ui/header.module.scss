@@ -1,0 +1,18 @@
+.Header {
+    @apply h-[40vh] text-center flex justify-center flex-col bg-indigo-500 text-white;
+
+    background: url('https://i.ibb.co/k9Ns2dB/IMAGE.png') no-repeat center center/cover;
+
+    >h2 {
+        @apply text-5xl mb-6;
+    }
+
+    p {
+        @apply text-xl mb-6;
+    }
+
+    a {
+        // create a button
+        @apply px-4 py-2 bg-white text-indigo-500 rounded w-40 text-center mx-auto;
+    }
+}
