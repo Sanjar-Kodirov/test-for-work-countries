@@ -1,0 +1,33 @@
+.CountryCard {
+    @apply flex justify-center container py-10;
+
+    .body {
+        @apply rounded-lg text-left w-[250px] shadow-lg bg-white max-w-sm;
+
+        a {
+            img {
+                @apply rounded-t-lg;
+            }
+        }
+
+        .bodyContent {
+            @apply p-6;
+
+
+            h5 {
+                @apply text-gray-900 text-[15px] font-medium mb-2
+            }
+
+            p {
+                @apply text-gray-700 text-base mb-4
+            }
+
+            span {
+                @apply inline-block mr-1
+            }
+
+
+        }
+    }
+
+}
