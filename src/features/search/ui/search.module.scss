@@ -1,0 +1,11 @@
+.search {
+    @apply my-6 mx-auto w-max ;
+
+    label {
+        @apply block text-gray-700 text-xl font-bold mb-2;
+    }
+
+    input {
+        @apply block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50  focus:ring-blue-500 focus:border-blue-500  dark:border-gray-600  
+    }
+}
