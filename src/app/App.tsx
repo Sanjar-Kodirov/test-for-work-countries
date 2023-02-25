@@ -1,9 +1,12 @@
+import './global.scss'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello from app</h1>
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
       </header>
     </div>
   );
